@@ -27,7 +27,7 @@ struct PropertyWrapperExperimentApp: App {
         print(contacts.firstEmail == contacts.firstEmail)
         print(contacts.firstEmail == contacts.secondEmail)
         print(contacts.$percent.wrapper.wrappedValue)
-        
+        print(contacts.name)
         
     }
 }

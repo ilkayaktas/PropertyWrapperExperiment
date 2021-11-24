@@ -26,4 +26,7 @@ struct ContactPoints {
 
     @Constrained(0...100)
     var scores: Int = 121
+    
+    @Capitalized
+    var name = "my name"
 }
